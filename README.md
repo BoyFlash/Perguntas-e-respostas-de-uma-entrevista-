@@ -47,15 +47,15 @@
 </body>
 </html>
 
-3.Projetar e desenvolver sites multilíngues envolve várias considerações importantes para garantir uma experiência de usuário consistente e eficaz. Aqui estão alguns pontos chave a serem observados:
+3 - Projetar e desenvolver sites multilíngues envolve várias considerações importantes para garantir uma experiência de usuário consistente e eficaz. Aqui estão alguns pontos chave a serem observados:
 
-1. - Localização vs. Internacionalização
+1 - Localização vs. Internacionalização
 
-2. - Internacionalização (i18n): Processo de preparar o seu site para suportar múltiplos idiomas sem precisar de grandes mudanças no código.
+2 - Internacionalização (i18n): Processo de preparar o seu site para suportar múltiplos idiomas sem precisar de grandes mudanças no código.
 
 - Localização (l10n): Adaptação do conteúdo e outras funcionalidades para um público específico, incluindo tradução, formatos de data/hora, moedas, etc.
 
-4. - Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
+4 - Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
 
 5 - HTML5 é uma plataforma web aberta que traz consigo uma série de novas funcionalidades e tecnologias projetadas para criar uma experiência de usuário rica e interativa. Aqui estão os principais blocos de construção do HTML5:
 
@@ -72,17 +72,6 @@ HTML5 introduz várias tags semânticas que melhoram a estrutura e a acessibilid
 <main>: Define o conteúdo principal de um documento.
 <figure> e <figcaption>: Define conteúdo ilustrativo e sua legenda.
 
-### APIs e Elementos Interativos
-APIs de Multimídia
-- <audio> e <video>: Suporte embutido para áudio e vídeo
-- <audio controls>
-    <source src="audiofile.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+e etc...
 
-<video controls>
-    <source src="videofile.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-- e etc
+6 ####Cookies, sessionStorage e localStorage são todas tecnologias usadas para armazenar dados no navegador do usuário, mas têm características e usos distintos. Vamos ver as diferenças entre elas:
