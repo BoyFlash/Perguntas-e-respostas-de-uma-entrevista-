@@ -130,3 +130,38 @@ Rastreamento de usuário e personalização.
 | Envio ao Servidor      | Sim, com cada requisição HTTP    | Não | Não    |
 | Tamanho   | Geralmente até 4 KB por cookie    | Belo HorizonteCerca de 5 MB por domínio | Cerca de 5 MB por domínio |
 | Escopo  | Domínio e caminho | Aba/janela específica  | Domínio |
+
+#### 7. Quando Usar Cada Um:
+
+- <script>: Use quando o script precisa ser executado imediatamente e/ou depende de elementos HTML que estão sendo carregados.
+
+- <script async>: Use quando o script não depende de outros scripts ou do conteúdo do HTML, e a ordem de execução não é crítica.
+
+- <script defer>: Use quando você deseja garantir que o script seja executado apenas após o carregamento completo do documento HTML, ou quando a ordem de execução é importante, mas você deseja carregar o script de forma assíncrona para melhorar o desempenho de carregamento da página.
+
+8. Posicionar os elementos <link> para CSS entre as tags <head></head> e os scripts JavaScript logo antes de </body> é uma prática recomendada por várias razões, relacionadas principalmente ao desempenho e à experiência do usuário. Aqui estão alguns motivos principais:
+
+- Carregamento Assíncrono: Os navegadores geralmente começam a renderizar a página assim que encontram o <head>. Colocar os <link> para folhas de estilo CSS no <head> permite que o navegador comece a baixar e processar os estilos CSS enquanto continua a analisar o restante do documento HTML. Isso é crucial para a renderização inicial rápida e para melhorar a percepção de carregamento rápido da página.
+
+- Prioridade Visual: O CSS controla o layout, a aparência e a animação da página. Tê-lo disponível cedo evita que os elementos da página sejam renderizados sem estilos aplicados, evitando flashes de conteúdo não estilizado (FOUC - Flash of Unstyled Content).
+  
+#### <script> no Final do <body>
+
+- Carregamento Paralelo: Colocar os scripts JavaScript no final do <body> permite que o navegador carregue e execute os scripts após o conteúdo principal da página ter sido renderizado. Isso melhora a percepção de desempenho, pois o usuário vê o conteúdo visível antes de quaisquer scripts serem executados.
+
+- Menor Impacto na Renderização: Scripts JavaScript podem ser bloqueantes, o que significa que a renderização do conteúdo pode ser interrompida enquanto o navegador executa o script. Colocá-los no final do <body> minimiza esse impacto, garantindo que o conteúdo visível seja priorizado.
+
+### 9. A renderização progressiva é um conceito fundamental no design de interfaces de usuário e no desenvolvimento web, que se refere à prática de apresentar conteúdo inicial de forma rápida e gradualmente melhorar a apresentação à medida que mais dados são carregados ou processados. Isso não se limita apenas à web, mas também se aplica a aplicativos móveis e outras interfaces digitais. 
+
+### 10. O atributo srcset é usado em elementos <img> para fornecer ao navegador uma lista de URLs de imagens e suas respectivas larguras de pixel, permitindo ao navegador escolher a melhor imagem para renderizar com base no contexto de exibição do usuário. Isso é especialmente útil em dispositivos com diferentes resoluções de tela, como monitores de alta definição (HD), telas de dispositivos móveis e tablets.
+
+### 11. Não
+
+### 12. Canvas e SVG são duas tecnologias distintas para renderização gráfica em páginas web. Cada uma tem suas próprias características, vantagens e casos de uso ideais. 
+
+Conclusão
+
+A escolha entre Canvas e SVG depende muito do tipo de gráficos que você está tentando criar e das necessidades específicas do seu projeto. Canvas é poderoso para gráficos dinâmicos e interativos, enquanto SVG é excelente para gráficos vetoriais escaláveis e interativos.
+
+### 13. Elementos vazios em HTML são elementos que não possuem conteúdo entre suas tags de abertura e fechamento. Em outras palavras, eles não têm conteúdo textual nem outros elementos aninhados dentro deles. Eles são formados apenas pela tag de abertura, possíveis atributos e pela tag de fechamento, que pode ser explícita (como em XHTML) ou implícita (em HTML5).
+
