@@ -74,4 +74,64 @@ HTML5 introduz várias tags semânticas que melhoram a estrutura e a acessibilid
 
 e etc...
 
+
 #### 6. Cookies, sessionStorage e localStorage são todas tecnologias usadas para armazenar dados no navegador do usuário, mas têm características e usos distintos. Vamos ver as diferenças entre elas:
+
+ ### Cookies
+ 
+  Características:
+ 
+ - Armazenamento de Pequenos Dados: Cookies são geralmente usados para armazenar pequenas quantidades de dados (até 4 KB por cookie).
+   
+- Enviados com Requisições HTTP: Cookies são enviados ao servidor com cada requisição HTTP, permitindo que o servidor leia e escreva dados no cliente.
+
+- Expiração e Persistência: Cada cookie pode ter uma data de expiração. Cookies podem ser persistentes (durando além da sessão do navegador) ou de sessão (expirando quando o navegador é fechado).
+  
+### Uso Comum:
+  
+Autenticação e gerenciamento de sessões.
+Rastreamento de usuário e personalização.
+  
+#### Escopo: Cookies têm escopo de domínio e caminho, o que significa que eles são acessíveis apenas nas páginas que pertencem ao domínio e caminho especificados.
+
+### sessionStorage
+
+ Características:
+
+- Armazenamento Temporário: Dados são armazenados apenas durante a sessão do navegador (até que a aba ou janela do navegador seja fechada).
+
+- Não Enviado com Requisições HTTP: Dados no sessionStorage não são enviados ao servidor com cada requisição.
+
+- Escopo: Os dados são específicos à aba ou janela e não são compartilhados entre abas ou janelas diferentes, mesmo que pertençam ao mesmo domínio.
+  
+### Uso Comum:
+
+- Armazenamento de dados temporários, como informações de formulário que não precisam persistir além da sessão.
+
+### localStorage
+
+ Características:
+
+- Armazenamento Persistente: Dados persistem mesmo depois de fechar a aba ou janela do navegador e são mantidos até serem explicitamente removidos.
+
+- Não Enviado com Requisições HTTP: Dados no localStorage não são enviados ao servidor com cada requisição.
+
+- Escopo: Os dados são específicos ao domínio, mas são acessíveis em todas as abas e janelas que pertencem ao mesmo domínio.
+  
+### Uso Comum:
+
+- Armazenamento de dados que precisam persistir entre sessões, como preferências do usuário, temas, configurações de layout.
+
+  Comparação Resumida
+Característica	Cookies	sessionStorage	localStorage
+Persistência	Definida pela expiração	Apenas durante a sessão	Persistente
+Envio ao Servidor	Sim, com cada requisição HTTP	Não	Não
+Tamanho	Geralmente até 4 KB por cookie	Cerca de 5 MB por domínio	Cerca de 5 MB por domínio
+Escopo	Domínio e caminho	Aba/janela específica	Domínio
+
+| Característica | Cookies | sessionStorage | localStorage | 
+|----------------|---------|----------------|--------------|
+| Persistência   | Definida pela expiração	    | Apenas durante a sessão  | Persistente |
+| Envio ao Servidor      | Sim, com cada requisição HTTP    | Não | Não    |
+| Tamanho   | Geralmente até 4 KB por cookie    | Belo HorizonteCerca de 5 MB por domínio | Cerca de 5 MB por domínio |
+
