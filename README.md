@@ -30,9 +30,9 @@
 
 ## Respostas;
 
-1. - O tipo de documento (doctype) no HTML informa ao navegador qual versão do HTML a página está usando. Isso ajuda o navegador a renderizar a página corretamente.
+#### 1.  O tipo de documento (doctype) no HTML informa ao navegador qual versão do HTML a página está usando. Isso ajuda o navegador a renderizar a página corretamente.
 
-2. - Para veicular uma página com conteúdo em vários idiomas, você pode usar várias abordagens. Aqui estão algumas das mais comuns:
+#### 2.  Para veicular uma página com conteúdo em vários idiomas, você pode usar várias abordagens. Aqui estão algumas das mais comuns:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@
 </body>
 </html>
 
-3 - Projetar e desenvolver sites multilíngues envolve várias considerações importantes para garantir uma experiência de usuário consistente e eficaz. Aqui estão alguns pontos chave a serem observados:
+#### 3. Projetar e desenvolver sites multilíngues envolve várias considerações importantes para garantir uma experiência de usuário consistente e eficaz. Aqui estão alguns pontos chave a serem observados:
 
 1 - Localização vs. Internacionalização
 
@@ -55,9 +55,9 @@
 
 - Localização (l10n): Adaptação do conteúdo e outras funcionalidades para um público específico, incluindo tradução, formatos de data/hora, moedas, etc.
 
-4 - Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
+#### 4.  Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
 
-5 - HTML5 é uma plataforma web aberta que traz consigo uma série de novas funcionalidades e tecnologias projetadas para criar uma experiência de usuário rica e interativa. Aqui estão os principais blocos de construção do HTML5:
+#### 5.  HTML5 é uma plataforma web aberta que traz consigo uma série de novas funcionalidades e tecnologias projetadas para criar uma experiência de usuário rica e interativa. Aqui estão os principais blocos de construção do HTML5:
 
 ### Estrutura Semântica
 
@@ -74,4 +74,4 @@ HTML5 introduz várias tags semânticas que melhoram a estrutura e a acessibilid
 
 e etc...
 
-#### 6 Cookies, sessionStorage e localStorage são todas tecnologias usadas para armazenar dados no navegador do usuário, mas têm características e usos distintos. Vamos ver as diferenças entre elas:
+#### 6. Cookies, sessionStorage e localStorage são todas tecnologias usadas para armazenar dados no navegador do usuário, mas têm características e usos distintos. Vamos ver as diferenças entre elas:
