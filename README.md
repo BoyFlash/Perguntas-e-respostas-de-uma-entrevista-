@@ -30,9 +30,9 @@
 
 ## Respostas;
 
-1.O tipo de documento (doctype) no HTML informa ao navegador qual versão do HTML a página está usando. Isso ajuda o navegador a renderizar a página corretamente.
+1. - O tipo de documento (doctype) no HTML informa ao navegador qual versão do HTML a página está usando. Isso ajuda o navegador a renderizar a página corretamente.
 
-2.Para veicular uma página com conteúdo em vários idiomas, você pode usar várias abordagens. Aqui estão algumas das mais comuns:
+2. - Para veicular uma página com conteúdo em vários idiomas, você pode usar várias abordagens. Aqui estão algumas das mais comuns:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -58,3 +58,31 @@
 4. - Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
 
 5 - HTML5 é uma plataforma web aberta que traz consigo uma série de novas funcionalidades e tecnologias projetadas para criar uma experiência de usuário rica e interativa. Aqui estão os principais blocos de construção do HTML5:
+
+### Estrutura Semântica
+
+HTML5 introduz várias tags semânticas que melhoram a estrutura e a acessibilidade do conteúdo da web:
+
+<header>: Define a seção de cabeçalho de um documento ou seção.
+<nav>: Define uma seção de navegação.
+<section>: Define uma seção genérica de um documento.
+<article>: Define um conteúdo independente e autocontido.
+<aside>: Define conteúdo relacionado, como uma barra lateral.
+<footer>: Define a seção de rodapé de um documento ou seção.
+<main>: Define o conteúdo principal de um documento.
+<figure> e <figcaption>: Define conteúdo ilustrativo e sua legenda.
+
+### APIs e Elementos Interativos
+APIs de Multimídia
+- <audio> e <video>: Suporte embutido para áudio e vídeo
+- <audio controls>
+    <source src="audiofile.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<video controls>
+    <source src="videofile.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+- e etc
