@@ -123,15 +123,10 @@ Rastreamento de usuário e personalização.
 - Armazenamento de dados que precisam persistir entre sessões, como preferências do usuário, temas, configurações de layout.
 
   Comparação Resumida
-Característica	Cookies	sessionStorage	localStorage
-Persistência	Definida pela expiração	Apenas durante a sessão	Persistente
-Envio ao Servidor	Sim, com cada requisição HTTP	Não	Não
-Tamanho	Geralmente até 4 KB por cookie	Cerca de 5 MB por domínio	Cerca de 5 MB por domínio
-Escopo	Domínio e caminho	Aba/janela específica	Domínio
-
+  
 | Característica | Cookies | sessionStorage | localStorage | 
 |----------------|---------|----------------|--------------|
 | Persistência   | Definida pela expiração	    | Apenas durante a sessão  | Persistente |
 | Envio ao Servidor      | Sim, com cada requisição HTTP    | Não | Não    |
 | Tamanho   | Geralmente até 4 KB por cookie    | Belo HorizonteCerca de 5 MB por domínio | Cerca de 5 MB por domínio |
-
+| Escopo  | Domínio e caminho | Aba/janela específica  | Domínio |
