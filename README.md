@@ -153,7 +153,7 @@ Rastreamento de usuário e personalização.
 
 #### 9. A renderização progressiva é um conceito fundamental no design de interfaces de usuário e no desenvolvimento web, que se refere à prática de apresentar conteúdo inicial de forma rápida e gradualmente melhorar a apresentação à medida que mais dados são carregados ou processados. Isso não se limita apenas à web, mas também se aplica a aplicativos móveis e outras interfaces digitais. 
 
-### 10. O atributo srcset é usado em elementos <img> para fornecer ao navegador uma lista de URLs de imagens e suas respectivas larguras de pixel, permitindo ao navegador escolher a melhor imagem para renderizar com base no contexto de exibição do usuário. Isso é especialmente útil em dispositivos com diferentes resoluções de tela, como monitores de alta definição (HD), telas de dispositivos móveis e tablets.
+#### 10. O atributo srcset é usado em elementos <img> para fornecer ao navegador uma lista de URLs de imagens e suas respectivas larguras de pixel, permitindo ao navegador escolher a melhor imagem para renderizar com base no contexto de exibição do usuário. Isso é especialmente útil em dispositivos com diferentes resoluções de tela, como monitores de alta definição (HD), telas de dispositivos móveis e tablets.
 
 #### 11. Não
 
