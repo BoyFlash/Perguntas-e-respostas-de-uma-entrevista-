@@ -74,4 +74,4 @@ HTML5 introduz várias tags semânticas que melhoram a estrutura e a acessibilid
 
 e etc...
 
-6 ####Cookies, sessionStorage e localStorage são todas tecnologias usadas para armazenar dados no navegador do usuário, mas têm características e usos distintos. Vamos ver as diferenças entre elas:
+#### 6 Cookies, sessionStorage e localStorage são todas tecnologias usadas para armazenar dados no navegador do usuário, mas têm características e usos distintos. Vamos ver as diferenças entre elas:
