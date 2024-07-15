@@ -49,11 +49,12 @@
 
 3.Projetar e desenvolver sites multilíngues envolve várias considerações importantes para garantir uma experiência de usuário consistente e eficaz. Aqui estão alguns pontos chave a serem observados:
 
-1. Localização vs. Internacionalização
+1. - Localização vs. Internacionalização
 
-2. Internacionalização (i18n): Processo de preparar o seu site para suportar múltiplos idiomas sem precisar de grandes mudanças no código.
+2. - Internacionalização (i18n): Processo de preparar o seu site para suportar múltiplos idiomas sem precisar de grandes mudanças no código.
 
-Localização (l10n): Adaptação do conteúdo e outras funcionalidades para um público específico, incluindo tradução, formatos de data/hora, moedas, etc.
+- Localização (l10n): Adaptação do conteúdo e outras funcionalidades para um público específico, incluindo tradução, formatos de data/hora, moedas, etc.
 
-4.Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
+4. - Os atributos de dados, também conhecidos como atributos de data ou data attributes, são usados para armazenar informações adicionais em elementos HTML. Esses atributos não são exibidos ao usuário, mas podem ser acessados e manipulados via JavaScript e CSS para adicionar funcionalidades dinâmicas ao site.
 
+5 - HTML5 é uma plataforma web aberta que traz consigo uma série de novas funcionalidades e tecnologias projetadas para criar uma experiência de usuário rica e interativa. Aqui estão os principais blocos de construção do HTML5:
